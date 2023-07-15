@@ -75,6 +75,25 @@ nav a {
     line-height: 26px;
 }
 .banner-img{
+    margin-top: 20px;
     width: 100%  ;
 }
-
+/* responsive media query */
+/* mobile phone devices */
+@media screen and (max-width: 576px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
+/* medium tab devices */
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    header{
+        padding: 50px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
